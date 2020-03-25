@@ -10,6 +10,8 @@
 
 //  services
 
+renderServices( services );
+
 //  team
 
 // numbers
