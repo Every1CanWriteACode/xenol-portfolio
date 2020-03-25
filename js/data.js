@@ -75,6 +75,42 @@ const numbers = [
 
 // blog
 
+const blog = [
+    {
+        date: {
+            day: 23,
+            month: 'June',
+            year: '2020'
+        },
+        photo: 'related-post-1.jpg',
+        title: 'Nauji metai',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt.'
+        link: '#'
+    },
+    {
+        date: {
+            day: 23,
+            month: 'June',
+            year: '2020'
+        },
+        photo: 'related-post-2.jpg',
+        title: 'labas vakaras',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt.'
+        link: '#'
+    },
+    {
+        date: {
+            day: 23,
+            month: 'June',
+            year: '2020'
+        },
+        photo: 'related-post-3.jpg',
+        title: 'BusinessStategy Consule',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt.'
+        link: '#'
+    }
+];
+
 // contact us
 
 // maps
