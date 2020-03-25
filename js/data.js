@@ -48,6 +48,29 @@ const services = [
 
 // numbers
 
+const numbers = [
+    {
+        icon: 'file-code-o',
+        number: 130,
+        title: 'project done'
+    },
+    {
+        icon: 'smile-o',
+        number: 80,
+        title: 'Happy clients'
+    },
+    {
+        icon: 'user',
+        number: 700,
+        title: 'Employees'
+    },
+    {
+        icon: 'trophy',
+        number: 90,
+        title: 'Award winner'
+    }
+];
+
 // pricing
 
 // blog

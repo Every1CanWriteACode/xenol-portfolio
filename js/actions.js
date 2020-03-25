@@ -16,6 +16,8 @@ renderServices( services );
 
 // numbers
 
+renderAchievements( numbers );
+
 //  pricing
 
 //  blog
