@@ -77,8 +77,8 @@ let HTML = '';
         const dateLink = `${pd.year}/${pd.month}/${pd.day}`;
         const year = new Date().getFullYear();
         let formatedDate = `${pd.day} ${months[pd.month-1]}`;
-        if ( year !== pd.year ){
-            formatedDate +=` , ${pd.year}`;
+        if ( year != pd.year ){
+            formatedDate +=`, ${pd.year}`;
         }
 
        
@@ -89,7 +89,7 @@ let HTML = '';
                      <a class="title" href="${post.link}">${post.title}</a>
                     <p>${post.description}</p>
                     <a class="more" href="${post.link}">Learn MORE</a>
-                </div>`
+                </div>`;
     }
     return document.querySelector('#blog > .blog-list').innerHTML = HTML;
 }
