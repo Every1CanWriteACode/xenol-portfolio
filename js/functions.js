@@ -59,6 +59,41 @@ function renderAchievements( list ){
 
 // blog
 
+function renderBlog( list ){
+let HTML = '';
+
+    if(!Array.isArray(list)){
+        return console.error("ERROR: duok sarasa");
+    }
+    if(list.length === 0){
+        return console.error("ERROR: Sarasas negali buti tuscias");
+    }
+
+
+    for (let i = 0; i<list.length; i++){
+        const post = list[i];
+        
+        const pd = post.date;
+        const dateLink = `${pd.year}/${pd.month}/${pd.day}`;
+        const year = new Date().getFullYear();
+        let formatedDate = `${pd.day} ${months[pd.month-1]}`;
+        if ( year !== pd.year ){
+            formatedDate +=` , ${pd.year}`;
+        }
+
+       
+       
+        HTML += `<div class="blog">
+                    <img src="./img/blog/${post.photo.src}" alt="${post.photo.alt}">
+                    <a class="date" href="#/posts-by-date/${dateLink}">${formatedDate}</a>
+                     <a class="title" href="${post.link}">${post.title}</a>
+                    <p>${post.description}</p>
+                    <a class="more" href="${post.link}">Learn MORE</a>
+                </div>`
+    }
+    return document.querySelector('#blog > .blog-list').innerHTML = HTML;
+}
+
 // contact us
 
 // maps
