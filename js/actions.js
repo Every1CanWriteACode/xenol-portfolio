@@ -22,6 +22,8 @@ renderAchievements( numbers );
 
 //  blog
 
+renderBlog( blog );
+
 // testimonials
 
 //  contact us
