@@ -1,6 +1,6 @@
 "use strict"
 
-const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Doc']
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Doc'];
 
 // header
 
@@ -83,7 +83,7 @@ const blog = [
         date: {
             day: 23,
             month: 6,
-            year: '2018'
+            year: 2018
         },
         
         photo: {
@@ -98,7 +98,7 @@ const blog = [
         date: {
             day: 23,
             month: 8,
-            year: '2020'
+            year: 2020
         },
         photo: {
             src: 'related-post-2.jpg',
@@ -112,7 +112,7 @@ const blog = [
         date: {
             day: 23,
             month: 7,
-            year: '2020'
+            year: 2020
         },
         photo: {
             src: 'related-post-3.jpg',
