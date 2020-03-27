@@ -67,8 +67,6 @@
 
     .service{
         display: inline-block;
-        width: calc(100% / 3);    
-        float: left;
         padding: 20px;
         text-align: center;
     }
@@ -107,10 +105,8 @@
 
 .achievement{
     display: inline-block;
-    width: 25%;
-    float: left;
+    padding: 20px 0;
     text-align: center;
-    color: #fff;
 }
     .achievement > .center{
         display: inline-block;
