@@ -42,7 +42,6 @@ const services = [
         icon: 'facebook',
         title: 'Wooocommerce',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur explicabo et vel reiciendis culpa quidem id accusantium aliquam maxime!'
-    
     },
     
 ];
